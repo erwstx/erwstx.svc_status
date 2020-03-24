@@ -1,0 +1,6 @@
+---
+- name: Ensure that the given service is in the correct state
+  service:
+    name: "{{ item.name }}"
+    state: "{{ item.state }}"
+  loop: "{{ svc_status_services_list }}"
