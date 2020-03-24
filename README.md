@@ -6,7 +6,7 @@ A simple Role which ensure that a list of services are in a given state
 Requirements
 ------------
 
-N/A
+None
 
 Role Variables
 --------------
@@ -16,7 +16,7 @@ svc_status_services_list: List of services we want to manage
 Dependencies
 ------------
 
-N/A
+None
 
 Example Playbook
 ----------------
